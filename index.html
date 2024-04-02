@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pic/barcode-scan.png">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>QR  Generator </h2>
+        <input id="inputtext" type="text" placeholder="Enter Text or Url">
+    
+        <button onclick="getcode()" id="btn">Get QR Code</button>
+        <div id="qrcontainer" class="qrcontainer">
+            <img id="qrimg" src="" alt="Loading" async>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
